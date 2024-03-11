@@ -16,7 +16,7 @@ h1 {
   
 img {
   max-width: 10%;
-  padding: 40px;
+  padding: 20px;
   display: block;
   margin: 0 auto;
 }
@@ -25,7 +25,7 @@ form {
   padding: 30px;
 }
   
-.btn {
+.btn1 {
   outline: none;
   border: none;
   cursor: pointer;
@@ -38,7 +38,7 @@ form {
   box-shadow: 0 6px #2E282A;
 }
   
-.btn a {
+.btn1 a {
     color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -48,12 +48,44 @@ form {
   letter-spacing: 2px;
 }
 
-.btn:hover {
+.btn1:hover {
   box-shadow: 0 4px #2E282A;
   top: 2px; 
 }
 
-.btn:active {
+.btn1:active {
+  box-shadow: none;
+  top: 6px; 
+} 
+.btn2 {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: static;
+  background-color: #676264;
+  padding: 20px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 6px #2E282A;
+}
+  
+.btn2 a {
+    color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.btn2:hover {
+  box-shadow: 0 4px #2E282A;
+  top: 2px; 
+}
+
+.btn2:active {
   box-shadow: none;
   top: 6px; 
 } 
